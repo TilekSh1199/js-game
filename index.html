@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виселица</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <video poster="./video/video1.mp4" autoplay muted loop>
+    <source src="./video/video1.mp4" type="video/mp4">
+  </video>
+    <div class="container">
+        <div class="main_block">
+            <div class="game_table">
+                <div class="status">
+                    <span>Нажмите START, чтобы начать игру</span>
+                </div>
+                <div class="rope"></div>
+                <div class="head"></div>
+                <div class="body"></div>
+                <div class="left_hand"></div>
+                <div class="right_hand"></div>
+                <div class="left_foot"></div>
+                <div class="right_foot"></div>
+            </div>
+            <div class="game_detail">
+                <div class="statics">
+                    Описание слова:
+                    <div class="description">
+
+                    </div>
+                    Слово:
+                    <div class="word">
+
+                    </div>
+                </div>
+                <div class="btns">
+                    <button id="btn_start">START</button>
+                    <button id="btn_finish">FINISH</button>
+                </div>
+                <div id="result_block">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <audio id="audio" controls loop>
+      <source src="./muz/muz.mp3">
+    </audio>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
